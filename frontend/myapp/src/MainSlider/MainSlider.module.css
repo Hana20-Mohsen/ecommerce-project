@@ -1,0 +1,8 @@
+
+
+.Slider_item_bg{
+    background-image: url(../assets/images/slider-item-bg-removebg-preview.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center
+}

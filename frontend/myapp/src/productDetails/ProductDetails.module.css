@@ -1,0 +1,10 @@
+.bg_white{
+    color: white !important;;
+}
+
+.ratingColor{
+    color:#ffe234
+  }
+  .icon::selection{
+    color : green
+  }

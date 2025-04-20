@@ -1,0 +1,233 @@
+:root{
+  --mainColor:#2ff3e0;
+  --dark:#121212;
+  --gray:#2f3135;
+  --body-font           :  "Open Sans", sans-serif;
+  --heading-font        :  "Open Sans", sans-serif;
+
+}
+/* new start */
+body {
+  font-family: var(--body-font);
+  font-size: 21px;
+  font-weight: 200;
+  margin: 0;
+}
+
+
+/* new end */
+.w-35{
+  width: 35%;
+}
+.navbar-nav .nav-link.active{
+  color: #2ff3e0 !important;
+  font-weight: bolder;
+}
+.main-color{
+ color: var(--mainColor);
+}
+.bg-main{
+  background-color: var(--mainColor);
+}
+.Gray-Color{
+  background-color: var(--gray);
+
+}
+.gray{
+  color :var(--gray)
+}
+.Dark-Color{
+  background-color: var(--dark);
+  height:100vh ;
+  overflow: auto;
+}
+::placeholder{
+  color: white !important;
+
+
+}
+textarea:focus, input:focus {
+  color: #ff0000;
+}
+.offline{
+  position: fixed;
+  bottom: 30px ;
+  right: 30px;
+  background-color: var(--mainColor);
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 50px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.w-90{
+  width: 90%;
+}
+.gray-border{
+  border: solid 2px var(--gray);
+}
+.main-color-border{
+  border: solid 2px var(--mainColor);
+}
+.main-color-bottom-border{
+  border-bottom: solid 2px var(--mainColor);
+}
+.product:hover{
+box-shadow: var(--gray);
+border: solid 2px var(--mainColor);
+
+}
+.product .btn{
+  transition: transform 1s , opacity 1s;
+  transform: translateY(100%);
+  opacity: 0;
+  color: var(--dark);
+  border: 2px solid var(--mainColor);
+}
+.product:hover .btn{
+  transform: translateY(0);
+  opacity: 100;
+}
+.product .btn:hover{
+  background-color: white;
+  color:var(--mainColor) !important;
+  border: 2px solid var(--mainColor);
+}
+.ProductDetails .btn:hover{
+  background-color: white;
+  color:var(--mainColor) !important;
+  border: 3px solid var(--mainColor) !important;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.ratingColor{
+  color:#ffe234
+}
+
+.un-underline{
+text-decoration: none;
+color: white;
+}
+
+.h-100vh{
+  height: 100vh !important;
+  overflow: auto;
+}
+.iconColor{
+  color:#2ff3e0 !important;
+}
+.heart-icon:hover{
+  color: var(--mainColor);
+}
+.hover-color:hover{
+color :var(--mainColor)
+}
+
+/* slider slick */
+
+.slick-dots li button::before {
+font-size: medium;
+  color: var(--mainColor);
+  opacity: 0.7;
+}
+.slick-dots li.slick-active button::before {
+  color: #fff;
+  opacity: 1;
+}
+
+.Slider-btn .btn:hover{
+color: white;
+background-color: var(--gray);
+}
+.h-75{
+  height: 80vh !important;
+  overflow: auto;
+  text-align: center;
+}
+.w-90{
+  width: 80% !important;
+}
+.circle-color{
+  /* background-color: #4A4A4A; */
+  background: linear-gradient(to bottom right, #2f3135,#FFF ) !important;
+}
+.mainSlider_bg{
+  background-image: url(../src/assets/images/slider-bg.jpeg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center
+
+  
+}
+/*-------------------------- end slider slick --------------------*/
+
+/*-------------- start categories in home page ----------------------- */
+
+
+.section-title h3::after {
+  content: "____________________________________________________________________________________________________________________________";
+  font-size: 19px;
+  color: var(--mainColor);
+  letter-spacing: 0.06rem;
+  margin-left: 16px;
+}
+
+
+
+/* start product details  */
+.starColor{
+  color: yellow;
+}
+.fa-heart:hover{
+color: var(--mainColor)
+}
+/* .icon:checked{
+  color : green
+} */
+
+/* start profile */
+.list-group-item:hover{
+background-color: var(--gray);
+border: 2px solid var(--mainColor);
+color: white !important
+}
+.profile-btn:hover{
+  background-color: var(--mainColor);
+  color: #121212;
+}
+
+
+
+.Toastify__toast--success {
+  margin-top: 30%;
+}
+
+
+.bg-grad{
+  background-image: linear-gradient(to bottom ,var(--dark),var(--gray));
+  height: 100vh;
+}
+.bg-blackAndGray{
+  background-image: linear-gradient(to bottom ,var(--dark),var(--gray));
+}
+.w-15{
+  width: 15%;
+}
+
+/* start admin */
+.nav-item{
+  margin-bottom: 15px !important;
+  padding: 10px;
+  margin-bottom: 5px !important;
+}
+
+.nav-item:hover{
+  box-shadow: var(--gray);
+border: solid 2px var(--mainColor);
+
+}
